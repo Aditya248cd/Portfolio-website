@@ -28,8 +28,12 @@ function App() {
   }, []);
 
   const handleDownloadResume = () => {
-    // Open resume modal or trigger download window
-    setIsResumeModalOpen(true);
+    const link = document.createElement('a');
+    link.href = '/Aditya_Bhagwat_Resume.pdf';
+    link.download = 'Aditya_Bhagwat_Resume.pdf';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
   };
 
   return (

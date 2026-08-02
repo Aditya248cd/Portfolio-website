@@ -92,7 +92,7 @@ const ResumeModal = ({ isOpen, onClose, onDownload }) => {
                 </div>
                 <div className="flex items-center justify-end space-x-2">
                   <FaLinkedin className="w-3.5 h-3.5 text-accent print:text-blue-600" />
-                  <a href={personalData.contact.linkedin} target="_blank" rel="noreferrer" className="hover:underline">linkedin.com/in/aditya-bhagwat</a>
+                  <a href={personalData.contact.linkedin} target="_blank" rel="noreferrer" className="hover:underline">linkedin.com/in/aditya-bhagwat-a0933a270</a>
                 </div>
               </div>
             </div>

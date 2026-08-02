@@ -19,7 +19,7 @@ export const personalData = {
     email: "bhagwataditya2489@gmail.com",
     phone: "+91 8762200072",
     location: "Bengaluru, India",
-    linkedin: "https://linkedin.com/in/aditya-bhagwat",
+    linkedin: "https://www.linkedin.com/in/aditya-bhagwat-a0933a270/",
     github: "https://github.com/Aditya248cd"
   },
   traits: [
